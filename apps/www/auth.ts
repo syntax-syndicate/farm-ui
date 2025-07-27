@@ -3,7 +3,6 @@ import NextAuth from "next-auth";
 import Google from "next-auth/providers/google";
 import Github from "next-auth/providers/github";
 import CredentialsProvider from "next-auth/providers/credentials";
-// import bcrypt from "bcryptjs";
 import { DrizzleAdapter } from "@auth/drizzle-adapter";
 import { db } from "db";
 import { accounts, sessions, users } from "db/schema";
